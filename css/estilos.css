@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+    color:rgb(0, 0, 0);
+    background: #d7e4e4 ;
+    font-size: 1em;
+    line-height: 1.5em;
+
+    padding-top: 80px ;
+}
+
+h1 {
+font-size: 2.3em;
+line-height: 1.3em;
+margin: 15px 0;
+text-align: center;
+font-weight: 300;
+
+}
+
+p {
+    margin: 0 0 1.5em 0;
+
+}
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  /* CABECERA */
+  #main-header {
+      background: #354259;
+      color: azure;
+      height: 80px;
+      width: 100%;
+      left: 0;
+      top:0;
+      position: fixed;
+  }
+
+  #main-header a {
+      color: azure;
+  }
+
+  /*LOGO*/
+
+  #logo-header {
+      float: left;
+      padding: 15px 0 0 20px;
+      text-decoration: none;
+  }
+  #logo-header:hover{
+color: rgb(126, 149, 162);
+  }
+  #logo-header .site-name {
+      display: block;
+      font-weight: 700;
+      font-size: 1.2em;
+
+  }
+
+  #logo-header .site-desc {
+      display: block;
+      font-weight: 300;
+      font-size: 0.8em;
+      color:rgb(250, 220, 220)
+  }
+  
+  /*NAVEGACION*/
+
+  nav {
+      float: right;
+  }
+
+  nav ul {
+      margin:0;
+      padding: 0;
+      list-style: none;
+      padding-right: 20px;
+  }
+  nav ul li {
+      display: inline-block;
+      line-height: 80px;
+  }
+
+  nav ul li a {
+      display: block;
+      padding: 0 10px;
+      text-decoration: none;
+  }
+
+  nav ul li a:hover {
+      background: #7da399; /*color al desplazar el mouse sobre el menu*/
+  }
+  
+/*contenido de la pagina*/
+#main-content {
+background: #CDC2AE;
+width: 90%;
+max-width: 800%;
+margin: 20px auto;
+box-shadow: #E2DCC8;
+  }
+#main-content header,
+#main-content .content {
+    padding: 40px;
+}
+
+/*PIE DE PAGINA*/
+#main-footer {
+    background: #354259;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#main-footer p {
+    margin: 0;
+}
+#main-footer a {
+    color:azure
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Patrick+Hand&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+
+
+    }
+    
+body /* Estilos del cuerpo de la página*/
+{
+    background: #FCF8E8; /*color de fondo de la página*/
+    font-family: 'Patrick Hand', cursive;
+        font-size: 20px; 
+    width: 1200px;
+    margin: auto;
+}
+
+/*Estilo de la imagen*/
+#imagenlogo
+{
+    background: url(../img/3.png) no-repeat left;
+    /*Agregamos un padding*/
+    padding: 20em 0em 0em 0em;
+    text-transform: uppercase;
+}
+
+/*Estilo para la etiqueta "a" incluida en H1*/
+#imagenlogo h1 a
+{
+    margin-left: 850px;
+    padding: 0em 0em 0em 0em;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: #94B49F;
+
+}
+
+/*Estilo para el subtitulado*/
+#subtitulo
+{
+    padding: 0em;
+    margin-left: 850px;
+    font-size: 2em;
+    color: #94B49F;
+}
+/*Estilo para los elementos de la lista del menú*/
+#menu li
+{ 
+    /*AHORA LOS BOTONES SE VISUALIZAN EN BLOQUES*/
+    display: inline-block;
+}
+/*Estilo para los elementos de la lista del menu*/
+#menu li
+{
+    display: block;
+    float: left;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    /*COMO VEMOS, SE GENERO UN CUADRO PARA LOS BOTONES*/
+    background: #CEE5D0;
+
+    /*DAMOS UNA SOMBRITA A LOS BOTONES*/
+    box-shadow: inset 0px -2px 0px 0px #94B49F;
+    text-decoration: none;
+
+    /*UNA SOMBRA PARA EL TEXTO COMO SE VISUALIZA*/
+    text-shadow: 1px 1px 0px #666;
+    text-transform: uppercase;
+    font-size: .90em;
+    color: #94B49F;
+}
+/*Estilo para la sección que muestra el contenido*/
+#seccion
+{
+    width: 1150px;
+    padding: 20px 40px;
+    background: #D8CCA3;
+    height: 2000px;
+}
+
+/*Estilo para la imagen que se encuentra dentro de la seccion*/
+#imagen
+{
+    margin-top: 0em;
+    margin-left: 320px;
+    width: 330px;
+    height: 250px;
+    text-align: center;
+}
+
+/*Estilo para el titulo dentro de la seccion*/
+#subtitulo2
+{
+    font-family: 'Patrick Hand', cursive;;
+    font-size: 30px;
+    color: #030303;
+}
+
+/*Estilo para el texto del lado derecho*/
+#ladoizquierdo
+{
+    margin: -5px 20px 0px 0px;
+    float: left;
+    width: 65%;
+    text-align: justify; /*Justifica el texto*/
+    color: #666;
+}
+/*estilo para el texto del footer del documento*/
+
+#footer{
+    font-family: 'Barlow';
+    text-align: center;
+    border: 10px;
+    font-size: 20px;
+    background-color: #94B49F;
+    width: 100%;
+    padding: 4px;
+}
+
+/*Estilo para todos los parrafos del documento*/
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15pt;
+}
